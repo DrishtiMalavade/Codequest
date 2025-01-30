@@ -1,0 +1,38 @@
+.container {
+    background-color: #d4f4c3;
+}
+
+/* body {
+    display: block;
+    overflow: hidden;
+} */
+/* 
+.back {
+    background-image: url(../src/component/font/backgrounf.png);
+    height: 100rem;
+    background-color: black;
+    margin-top: -5rem;
+} */
+
+body {
+    background-color: #fffeec;
+}
+
+@font-face {
+    font-family: retrogaming;
+    src: url(./font/retrogaming.ttf);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.fontlav {
+    font-family: retrogaming, monospace;
+    font-size: 1rem;
+    color: #000;
+    /* margin-bottom: 20px; */
+    /* height: 2rem; */
+
+}
