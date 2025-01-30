@@ -1,0 +1,15 @@
+.splide__slide {
+    transition: transform 0.3s ease;
+}
+
+.splide__slide.is-active {
+    transform: scale(1.1);
+    /* Scale effect for the active slide */
+    z-index: 1;
+    /* Ensure the active slide is above others */
+}
+
+.splide__slide:hover {
+    transform: scale(1.05);
+    /* Slightly enlarge on hover */
+}

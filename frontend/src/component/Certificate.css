@@ -1,0 +1,173 @@
+@font-face {
+    font-family: retrogaming;
+    src: url(./font/retrogaming.ttf);
+}
+
+
+
+a {
+    color: #6f6f6f;
+    text-decoration: none;
+}
+
+.h11 {
+    font-style: normal;
+    font-weight: 900;
+    /* Bold for main heading */
+    font-size: 40px;
+    /* Larger size for emphasis */
+    margin-bottom: 20px;
+    color: #000;
+    /* Dark color for main heading */
+}
+
+.h22 {
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #000;
+    /* Dark color for name and course */
+}
+
+.h33 {
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #f7efba;
+    /* Light font color */
+    /* 
+    text-shadow:
+        1px 1px 0 #311046,
+        -1px 1px 0 #311046,
+        1px -1px 0 #311046,
+        -1px -1px 0 #311046;
+    Lighter color for supporting text */
+}
+
+
+.cert-container {
+    position: relative;
+    padding: 45px;
+    width: 1056px;
+    height: 840px;
+    /* Height to fit everything */
+    margin-top: 2rem;
+    margin-left: 12rem;
+}
+
+/* Certificate Outer Border (Gray) */
+.border-gray {
+    /* background-image: url(""); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 700px;
+    padding: 5px;
+    /* border: 3px solid #58595B; */
+}
+
+/* Certificate Inner Border (red) */
+.border-red {
+    width: 980px;
+    height: 680px;
+    /* border: 3px double #CE202F; */
+}
+
+.content {
+    padding: 20px;
+    height: 620px;
+    /* Adjusted height to fit content */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #A2CA71;
+    /* Adjusted margin */
+}
+
+.copytext-container {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.congrats-copytext {
+    margin-bottom: 50px;
+}
+
+.course-copytext {
+    margin-bottom: 40px;
+}
+
+
+#mt-logo {
+    position: absolute;
+    width: 100px;
+    right: 850px;
+    top: 105px;
+}
+
+#mt-site {
+    color: #CE202F;
+    font-size: 14pt;
+}
+
+.signature {
+    position: absolute;
+    bottom: 200px;
+    /* Adjusted to keep space between image and signature */
+    right: 130px;
+    /* Adjusted right position */
+    font-size: 2rem;
+    color: #f7efba;
+    /* Light font color */
+    /* text-align: right; */
+    margin-right: 50px;
+    text-shadow:
+        1px 1px 0 #311046,
+        -1px 1px 0 #311046,
+        1px -1px 0 #311046,
+        -1px -1px 0 #311046;
+    /* Dark border effect */
+}
+
+
+
+/* Added PNG image styling */
+/* #custom-image {
+    position: absolute;
+    bottom: 110px;
+    /* Keep it inside the red border */
+/* right: 40px;
+width: 268px;
+height: 85px;
+} */
+
+#custom-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 700px;
+}
+
+@media print {
+    @page {
+        size: letter landscape;
+        margin: 0;
+        padding: 0;
+    }
+
+    .cert-container {
+        border: none;
+    }
+}
+
+.fontl {
+    font-family: retrogaming, monospace;
+    font-size: 1rem;
+    color: gold;
+    /* margin-bottom: 20px; */
+    /* height: 2rem; */
+
+}

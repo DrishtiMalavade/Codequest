@@ -1,0 +1,55 @@
+/* Individual item */
+.bm-item {
+    display: inline-block;
+    color: #d1d1d1;
+    margin-bottom: 10px;
+    text-align: left;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.bm-item:hover {
+    color: #ffffff;
+}
+
+.bm-burger-button {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: #373a47;
+}
+
+.bm-menu {
+    margin-top: 0px;
+    margin-left: 0px;
+    background: #387F39;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+}
+
+.bm-menu-wrap {
+    position: fixed;
+    right: inherit;
+    z-index: 1100;
+    width: 300px;
+    height: 100%;
+    transition: 0.5s;
+    top: 0px;
+}
+
+.bm-overlay {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    transition: opacity 0.3s;
+    top: 0px;
+}
